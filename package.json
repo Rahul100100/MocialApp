@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node mainapp.js",
-    "dev": "nodemon mainapp.js"
+    "dev": "nodemon mainapp.js",
+    "heroku-postbuild":"npm install"
   },
   "keywords": [],
   "author": "",
